@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favorite Restaurants</title>
+  </head>
+  <body>
+    <app-navbar></app-navbar>
+    <app-sidebar></app-sidebar>
+
+    <div class="backdrop" id="backdrop" aria-hidden="true"></div>
+
+    <section class="restaurants" id="favorites">
+      <h2>Your Favorite Restaurants</h2>
+      <div id="loading" style="display: none">Loading...</div>
+      <div class="restaurant-list" id="favorite-list"></div>
+    </section>
+
+    <app-footer></app-footer>
+    <custom-alert></custom-alert>
+  </body>
+</html>

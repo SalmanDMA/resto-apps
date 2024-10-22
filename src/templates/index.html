@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resto Apps</title>
+  </head>
+  <body>
+    <a href="#main-content" class="skip-to-content">Skip to Content</a>
+
+    <app-navbar></app-navbar>
+
+    <app-sidebar></app-sidebar>
+
+    <div class="backdrop" id="backdrop" aria-hidden="true"></div>
+
+    <app-hero></app-hero>
+
+    <section class="restaurants">
+      <h2>Explore Restaurant</h2>
+      <div id="loading" style="display: none">Loading...</div>
+      <div class="restaurant-list" id="restaurant-list"></div>
+    </section>
+
+    <div class="container-testi-tips">
+      <app-testimonials></app-testimonials>
+      <app-tips></app-tips>
+    </div>
+
+    <app-footer></app-footer>
+
+    <custom-alert></custom-alert>
+  </body>
+</html>
